@@ -53,6 +53,12 @@ set number
 " " highlight search matches
 set hlsearch
 
+" use indentation of previous line
+set autoindent
+
+" use intelligent indentation for C
+set smartindent
+
 " " support 256 colors
 set t_Co=256
 
@@ -72,6 +78,15 @@ set laststatus=2
 
 " ** vim-gitgutter
 let g:gitgutter_map_keys = 0 "Remove all mappings, not used
+
+" highlight python syntax features
+let python_highlight_all=1
+
+" highlight matching braces
+set showmatch
+
+" highlight python syntax features
+let python_highlight_all=1
 
 " ** autocompletion
 filetype on
