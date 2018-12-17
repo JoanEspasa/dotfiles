@@ -72,6 +72,7 @@ set background=dark
 
 " " Gruvbox specific vars
 let g:gruvbox_italic=1 " italics for the gruvbox scheme
+let g:gruvbox_contrast_dark = "soft"
 
 " " Colorscheme settings
 " solarized, angr, alduin, happy_hacking, deus, afterglow are also good ones
