@@ -13,7 +13,10 @@ Plugin 'VundleVim/Vundle.vim'
 " Vim theme like zsh powerline
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+" Color schemes
+Plugin 'rafi/awesome-vim-colorschemes'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'morhetz/gruvbox'
 
 " When you do searches will show you Match 2 of 4 in the status line"
 Plugin 'henrik/vim-indexed-search'
@@ -66,7 +69,13 @@ set t_Co=256
 syntax enable
 let g:solarized_termcolors=256
 set background=dark
-colorscheme solarized
+
+" " Gruvbox specific vars
+let g:gruvbox_italic=1 " italics for the gruvbox scheme
+
+" " Colorscheme settings
+" solarized, angr, alduin, happy_hacking, deus, afterglow are also good ones
+colorscheme gruvbox
 
 " *** Plugins config
 " ** Airline **

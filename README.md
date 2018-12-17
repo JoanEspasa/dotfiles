@@ -10,6 +10,14 @@ Using Vundle as a plugin manager: <https://github.com/VundleVim/Vundle.vim>
 - Copy `.vimrc` file into `~`
 - Follow install instructions from Vundle
 
+Add to `.bashrc`, so it overrides terminal defaults:
+```sh
+# override terminal colours to set 256 colours for vim
+source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
+```
+as specified in <https://github.com/morhetz/gruvbox/wiki/Terminal-specific>.
+
+
 ## bash
 
 Not much here. For now using powerline-shell to beautify a bit:
